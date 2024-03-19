@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ejercicio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+      <a href="/equipo/barcelona/index.html">Equipo Barcelona</a>
+    </nav>
+    <main>
+      <h1>Home page</h1>
+      <ol>
+        <li>
+          Cuando hacemos clic en "Equipo Barcelona" no navegamos a la página
+          correcta. BONUS: ¿Qué significa 404?
+        </li>
+        <li>
+          ¿Por qué esta deformada la siguiente imagen? ¿Cómo podría arreglarlo
+          modificando alguno de los atributos de este tag?
+          <img
+            width="100"
+            src="https://fastly.picsum.photos/id/269/200/200.jpg?hmac=bwgD-EwCEQdZUDy2Cu8x88xc00zhHOk_0c7Z9j6Z57s"
+            alt="puerto"
+          />
+        </li>
+        <li>
+          Existe una etiqueta para poner en negrita un
+          <b>texto en concreto</b> , pero existe otra que hace exactamente lo
+          mismo. ¿Cuál es? ¿Que diferencia hay con &lt;b&gt;?
+          <details>
+            <summary>Solución</summary>
+            <p>
+              Es el tag &lt;strong&gt;. Sirve para dar importancia a un
+              fragmento de texto respecto al resto. El tag &lt;b&gt; se usa para
+              llamar la atención al usuario a un punto del texto (típicos
+              enlaces de <b style="color: green">pincha aquí</b>)
+            </p>
+          </details>
+        </li>
+      </ol>
+      <h2>Semántica</h2>
+      <p>
+        Lee el
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em#i_vs._em"
+        >
+          siguiente párrafo de la documentación de Mozilla
+        </a>
+        sobre las diferentes maneras de poner en cursiva un texto, y entiende
+        las diferencias. Luego, aplica las cursivas adecuadas en la siguientes
+        frases
+      </p>
+      <ul>
+        <li>
+          En IronPizza tiene una pizza que contiene tomate, queso, y
+          <em>chocolate.</em>
+          Des de luego es un ingrediente poco común...¡pero queda deliciosa!
+        </li>
+        <li>
+          En la lengua española, no todo el mundo tiene claro cuando debe
+          separarse la partícula <i>de</i> y cuando no.
+        </li>
+      </ul>
+      <details>
+        <summary>Solución</summary>
+        <p>
+          En el primer caso usamos "em", pues queremos enfatizar un ingrediente
+          poco común en la pizza. En el segunda caso usamos "i", puesto que solo
+          queremos diferenciar una partícula del resto del texto.
+        </p>
+      </details>
+    </main>
+  </body>
+</html>
